@@ -10,7 +10,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
+
+.cards-general
+{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.card
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 200px;
+  gap: 5px;
+}
+
+
+
 
 /* do not edit this footer */
 .footer {
